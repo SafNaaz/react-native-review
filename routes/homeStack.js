@@ -13,7 +13,7 @@ const screens = {
         // }
         navigationOptions: ({ navigation }) => {
             return {
-                headerTitle: () => <Header navigation={navigation} />
+                headerTitle: () => <Header navigation={navigation} title='GameZone' />
             }
         }
     },
@@ -31,7 +31,8 @@ const HomeStack = createStackNavigator(screens, {
         headerStyle: {
             backgroundColor: '#eee',
             height: 60
-        }
+        },
+        //headerTitleAlign: 'center'
     }
 })
 
