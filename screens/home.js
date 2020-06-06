@@ -72,17 +72,18 @@ export default function Home({ navigation }) {
 
 const styles = StyleSheet.create({
   modalToggle: {
+	justifyContent: 'center',
+    alignItems: 'center',
     marginBottom: 10,
-    backgroundColor: "#f2f2f2",
+    borderWidth: 1,
+    borderColor: '#f2f2f2',
     padding: 10,
     borderRadius: 10,
-    alignItems: "center",
-    textAlign: "center",
+    alignSelf: 'center',
   },
   modalClose: {
     marginTop: 20,
-    marginBottom: 0,
-    backgroundColor: "#f2f2f2",
+    marginBottom: 0
   },
   modalContent: {
     flex: 1,
